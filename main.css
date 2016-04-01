@@ -16,21 +16,40 @@
 /*-----------------------------------------------
 *   Base
 -----------------------------------------------*/
-body{
-
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #212121;
 }
 
 h1, h2, h3, h4, h5, h6 {
 
 }
 
-ol {
+ol, ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
 p {
+
+}
+
+a {
+  color: #ff4081;
+}
+
+a:active {
+  color: ;
+}
+
+a:hover {
+  color: #212121;
+}
+
+a:focus {
 
 }
 
@@ -70,7 +89,14 @@ p {
 
 .news-link {
   color: #3f51b5;
+  display: block;
   font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.news-meta-item {
+  display: inline;
+  margin-right: 15px;
 }
 
 
